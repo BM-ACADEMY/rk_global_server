@@ -28,8 +28,7 @@ app.use((req, res, next) => {
     next();
 });
 
-// // Connect to MongoDB
-// connectDB();
+
 
 // Use Routes
 app.use("/api/upload-career", uploadRoutes);
